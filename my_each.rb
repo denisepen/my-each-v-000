@@ -5,7 +5,7 @@ def my_each(array)
     yield
     counter += 1
   end
-  array
+  array.join
 end
 
       my_each (["1", "2", "3"]) {|i|  i}

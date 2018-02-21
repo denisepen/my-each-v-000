@@ -1,6 +1,9 @@
 def my_each(array)
+  while counter < array.length
+counter = 0
   array.map
-  yield
+    yield
+    counter += 1
   array
 end
 

@@ -1,9 +1,7 @@
 def my_each(array)
-  array.map 
+  array.map
   yield
 
       end
 
-      my_array = {|i| puts i}
-
-      
+      my_array {|i| puts i}

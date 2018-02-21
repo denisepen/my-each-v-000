@@ -4,4 +4,4 @@ def my_each(array)
   array
 end
 
-      my_each (array) {|i| puts i}
+      my_each (["1", "2", "3"]) {|i| puts i}

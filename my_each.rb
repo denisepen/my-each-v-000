@@ -4,6 +4,7 @@ def my_each(array)
   array.map
     yield
     counter += 1
+  end
   array
 end
 
